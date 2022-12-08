@@ -1,12 +1,12 @@
-var num = 17;
-var count = 0;
-for (var i = 1; i < num; i++) {
-  if (num % i == 0) {
-    count++;
+var number = 17;
+var factorial = 0;
+for (var i = 1; i <= number; i++) {
+  if (number % i == 0) {
+    factorial++;
   }
 }
-if (count == 2) {
-  console.log(" Prime Number");
+if (factorial == 2) {
+  console.log("Prime Number");
 }
 else {
   console.log("not a Prime");
