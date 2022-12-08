@@ -11,3 +11,5 @@ if (factorial == 2) {
 else {
   console.log("not a Prime");
 }
+var i = 0;
+console.log(i);
